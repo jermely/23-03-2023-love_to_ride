@@ -1,0 +1,15 @@
+.about {
+  display: block;
+  background-color: $yellow-color;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+
+  h1 {
+    color: $red-color;
+  }
+
+  p {
+    color: $off-white-color;
+  }
+}
