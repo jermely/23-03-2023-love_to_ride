@@ -1,7 +1,11 @@
+$red-color: #e64448;
+$yellow-color: #eab244;
+$off-white-color: #e1e2df;
+
 body {
   width: 400px;
   margin: auto;
-  background-color: #e64448;
+  background-color: $red-color;
 }
 
 header {
@@ -17,20 +21,22 @@ header {
 
 .local {
   display: block;
-  background-color: #e64448;
+  background-color: $red-color;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 5px;
-}
-.local h1 {
-  color: #3c3a48;
-}
-.local p {
-  color: #eab244;
+
+  h1 {
+    color: #3c3a48;
+  }
+
+  p {
+    color: $yellow-color;
+  }
 }
 
 .bikes {
-  background-color: #e1e2df;
+  background-color: $off-white-color;
   text-align: center;
 }
 
@@ -41,29 +47,34 @@ header {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 5px;
-}
-.signup h1 {
-  color: #696c6d;
-}
-.signup label {
-  display: block;
-  margin-bottom: 5px;
-}
-.signup input {
-  display: block;
-  margin-bottom: 20px;
+
+  h1 {
+    color: #696c6d;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input {
+    display: block;
+    margin-bottom: 20px;
+  }
 }
 
 .about {
   display: block;
-  background-color: #eab244;
+  background-color: $yellow-color;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 5px;
+
+  h1 {
+    color: $red-color;
+  }
+
+  p {
+    color: $off-white-color;
+  }
 }
-.about h1 {
-  color: #e64448;
-}
-.about p {
-  color: #e1e2df;
-}/*# sourceMappingURL=main.css.map */
